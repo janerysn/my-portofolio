@@ -231,12 +231,12 @@ main{
 }
 
 .education-section{
-    height: 200vh;
+    height: 100vh;
 
 }
 
 .education-section .pt-5{
-    padding-top: 20%  !important;
+    padding-top: 10%  !important;
 }
 
 #education h2{
