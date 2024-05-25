@@ -46,7 +46,7 @@
         line-height: 58px;
       }
       .section-project8 img {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
         margin-top: 20px;
       }
