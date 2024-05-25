@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        width: 100%;
+        background-color: #d5d1c0;
+        background-image: url(asset/backgroundp.png);
+        background-size: auto;
+      }
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        * {
+          margin: 0;
+          padding: 0;
+        }
+      }
+      body {
+        width: 100%;
+        background-image: url(asset/backgroundp.png);
+        background-size: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .section-certificate-udemy {
+        text-align: center;
+        padding: 20px;
+      }
+      .section-certificate-udemy h2 {
+        margin-top: 5%;
+        font-family: "Istok Web";
+        color: #473213;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+      }
+      .section-certificate-udemy img {
+        max-width: 50%;
+        height: auto;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section-certificate-udemy">
+      <h2>Certificate</h2>
+      <img src="asset/sertif1udemy.png" alt="Design" />
+      <img src="asset/sertif2udemy.png" alt="Design" />
+      <img src="asset/sertif3udemy.png" alt="Design" />
+    </section>
+  </body>
+</html>

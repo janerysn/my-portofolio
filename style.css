@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-color:#D5D1C0;
+    background-image: url(asset/backgroundp.png);
+    background-size: auto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        width: 100%;
+        background-image: url(asset/backgroundp.png);
+        background-size: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*--------------------------------------------NAV START-------------------------------------------------------------------*/
+.navbar{
+    background-color: #c1baa8;
+    height: 70px;
+    margin: 20px;  
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);;
+
+}
+
+.navbar.toggler{
+    border:none;
+    outline: none;
+}
+
+.navbar.toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link{
+    color: #473213;
+    font-weight: 50 0;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link:hover{
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+}
+/*--------------------------------NAV END-------------------------------------*/
+
+/*---------------------------HERO START--------------------------------------*/
+main{
+    position: relative;
+    z-index: 1;
+}
+
+/*----Home Section-----*/
+.home-section{
+    position: relative;
+    overflow: hidden;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+@media(max-width:767px) {
+    .home-section{
+        padding-bottom: 70px;
+    }
+}
+
+.home-section .container{
+        position: relative;
+        z-index: 1;
+}
+
+.home-section .home-intro h2{
+    font-family:  'Istok Web';
+    font-weight: 700;
+    font-size: 60px;
+    color: #FEFEFD;
+    border: 1px  rgba(158, 152, 141, 0.976471);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin :0 0 30px;
+}
+
+@media(max-width:767px) {
+    .home-section .home-intro{
+        margin: 0 0 20px;
+    }
+}
+
+.home-section .home-intro h1{
+    font-weight: 500;
+    font-family:  'Istok Web';
+    font-size: 50px;
+    color: #473213;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 0 35px;
+    line-height: 1;
+}
+
+@media(max-width:767px) {
+    .home-section .home-intro h1{
+        margin: 0 0 25px;
+        font-size: 45px;
+
+    }
+}
+
+.home-section .home-intro h4{
+    font-family:  'Istok Web';
+    font-weight: 500;
+    font-size: 45px;    
+    color: #473213;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-section .home-intro h4 span{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color :#fefefe;
+    font-weight: 600;
+}
+
+.home-image img{
+    width: 401.27px;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    background-color: #473213;
+    border-radius: 200px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    position: relative;
+    z-index: -2;
+    
+
+}
+
+@media (max-width: 767px) {
+    .home-image{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+.about-section {
+    height: 100vh;
+}
+
+.about-section .pt-5 {
+    padding-top: 18%  !important;
+  }
+
+.about-text{
+        font-family: 'Istok Web';
+        color: #473213;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+        text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-paragraph{
+    
+    font-family: 'Istok Web';
+    font-size: 25px;
+    font-weight: 2px;
+    color: #473213;
+    
+}
+
+.creation-section{
+    height: 200vh;
+}
+
+.creation-section .pt-5{
+    padding-top: 10%  !important;
+}
+
+
+#creation h2{
+    font-family: 'Istok Web';
+    color: #473213;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.25);
+    
+    
+}
+
+
+.card {
+    background-color: #e2ded2; 
+   
+}
+.card-body {
+    padding: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.btn-primary {
+    background-color: #473213;
+    border-color: #473213;
+}
+.btn.btn-primary:hover {
+    background-color: #ffffff;
+    border-color: #5b3a17;
+    color: #473213;
+    
+}
+
+.education-section{
+    height: 100vh;
+
+}
+
+.education-section .pt-5{
+    padding-top: 10%  !important;
+}
+
+#education h2{
+    font-family: 'Istok Web';
+    color: #473213;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.education-section img{
+    width: 300px;
+}
+
+.education-section .card{
+    max-width: 300px;
+    padding: 20px;
+}
+
+.contact-section {
+    height: 20vh;
+}
+
+.contact-section .pt-5{
+    padding-top: 10%  !important;
+}
+
+.contact-section h2{
+    font-family: 'Istok Web';
+    color: #473213;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.25);  
+}
+.contact-icon {
+    font-size: 2em;
+    margin: 0 10px;
+    transition: color 0.3s;
+    color: #473213;
+}
+.contact-icon:hover {
+    color: #FEFEFD
+}
+
