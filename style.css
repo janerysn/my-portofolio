@@ -185,7 +185,7 @@ main{
 }
 
 .creation-section{
-    height: 250vh;
+    height: 300vh;
 }
 
 .creation-section .pt-5{
@@ -236,7 +236,7 @@ main{
 }
 
 .education-section .pt-5{
-    padding-top: 20%  !important;
+    padding-top: 50%  !important;
 }
 
 #education h2{
