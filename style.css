@@ -136,26 +136,26 @@ main{
     font-weight: 600;
 }
 
-.home-image img{
-    width: 401.27px;
+.home-image img {
+    width: 100%;
+    max-width: 400px; 
     height: auto;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     background-color: #473213;
-    border-radius: 200px;
+    border-radius: 50%;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
     object-fit: cover;
     position: relative;
     z-index: -2;
-    
-
 }
 
 @media (max-width: 767px) {
-    .home-image{
-        height: 300px;
-        width: 300px;
+    .home-image img {
+        max-width: 100%; 
+        border-radius: 50%; 
     }
+
 }
 
 .about-section {
@@ -165,6 +165,16 @@ main{
 .about-section .pt-5 {
     padding-top: 18%  !important;
   }
+
+  @media (max-width: 767px){
+    .about-section {
+        height: 100vh;
+    }
+    
+    .about-section .pt-5 {
+        padding-top: 25%  !important;
+      }
+  }  
 
 .about-text{
         font-family: 'Istok Web';
@@ -251,7 +261,7 @@ main{
     width: 300px;
 }
 
-.education-section .card{
+.education-section .card {
     max-width: 300px;
     padding: 20px;
 }
@@ -280,4 +290,37 @@ main{
 .contact-icon:hover {
     color: #FEFEFD
 }
+
+@media (max-width: 767px) {
+.creation-section {
+    height: auto;
+    padding-top: 50px;
+}
+
+#creation h2 {
+    font-size: 32px;
+}
+
+.education-section {
+    height: auto;
+    padding-top: 50px;
+}
+
+#education h2 {
+    font-size: 32px;
+}
+.contact-section {
+    padding: 20px;
+}
+
+.contact-section h2 {
+    font-size: 18px;
+}
+
+.contact-icon {
+    font-size: 1.5em;
+    margin: 5px 10px; 
+}
+}
+
 
