@@ -124,11 +124,18 @@ main{
 
 .home-section .home-intro h6{
     font-family:  'Istok Web';
-    font-weight: 560;
+    font-weight: 500;
     font-size: 30px;    
     color: #FEFEFD;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.home-section .home-intro h6 span{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color :#473213;
+    font-weight: 500;
+}
+
 
 
 
